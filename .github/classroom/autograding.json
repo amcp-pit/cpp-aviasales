@@ -93,7 +93,7 @@
     {
       "name": "Test 2.5",
       "setup": "",
-      "run": "timeout 1 ./aviasales < tests/input5.txt > out.txt && cmp out.txt tests/out5.txt",
+      "run": "timeout 1 ./aviasales < tests/input5.txt > out.txt && cmp output5.txt tests/output5.txt && cmp out.txt tests/out5.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -103,7 +103,7 @@
     {
       "name": "Test 2.6",
       "setup": "",
-      "run": "timeout 1 ./aviasales < tests/input6.txt > out.txt && cmp output6.txt tests/output6.txt && cmp out.txt tests/out6.txt",
+      "run": "timeout 1 ./aviasales < tests/input6.txt > out.txt && cmp out.txt tests/out6.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -113,7 +113,7 @@
     {
       "name": "Test 2.7",
       "setup": "",
-      "run": "timeout 1 ./aviasales < tests/input7.txt > out.txt && cmp out.txt tests/out7.txt",
+      "run": "timeout 1 ./aviasales < tests/input7.txt > out.txt && cmp output7.txt tests/output7.txt && cmp out.txt tests/out7.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -359,6 +359,6 @@
       "comparison": "include",
       "timeout": 1,
       "points": 1
-    },
+    }
   ]
 }

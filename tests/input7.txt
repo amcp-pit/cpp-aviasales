@@ -6,7 +6,7 @@ total records
 total tickets
 save test1.db
 load test1.db
-export output6.txt
+export output7.txt
 total records
 total tickets
 quit

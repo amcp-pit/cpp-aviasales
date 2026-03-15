@@ -1,0 +1,8 @@
+load test1.db
+total records
+total tickets
+load test2.db
+export output20.txt
+total records
+total tickets
+quit

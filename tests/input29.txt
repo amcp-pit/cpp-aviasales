@@ -1,0 +1,32 @@
+load test3.db
+total records
+total tickets
+from OVB to MCX on 04.03.2026
+buy S75153 04.03.2026
+buy S75153 04.03.2026
+buy S75153 04.03.2026
+from OVB to MCX on 04.03.2026
+from BQT to SVO on 04.03.2026
+buy B2921 04.03.2026
+buy B2921 04.03.2026
+buy B2921 04.03.2026
+buy B2921 04.03.2026
+from BQT to LED on 28.02.2026
+find BQT to LED
+buy SU6039 05.03.2026
+buy SU6039 05.03.2026
+find BQT to LED
+from AER to PEZ on 03.03.2026
+buy A45037 03.03.2026
+buy A45037 03.03.2026
+buy A45037 03.03.2026
+from AER to PEZ on 03.03.2026
+find AER to PEZ
+buy A46120 03.03.2026
+buy A46120 03.03.2026
+buy A46120 03.03.2026
+find AER to PEZ
+save test3.db
+quit
+
+

@@ -1,0 +1,12 @@
+load test1.db
+total records
+total tickets
+clear
+total records
+total tickets
+save test1.db
+load test1.db
+export output6.txt
+total records
+total tickets
+quit

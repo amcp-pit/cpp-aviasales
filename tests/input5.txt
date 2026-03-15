@@ -1,0 +1,16 @@
+load test1.db
+total records
+total tickets
+buy DP208 28.02.2026
+buy SU6041 28.02.2026
+buy SU6041 28.02.2026
+buy SU6026 01.03.2026
+buy SU6495 28.02.2026
+save test1.db
+total records
+total tickets
+load test1.db
+export output4.txt
+total records
+total tickets
+quit

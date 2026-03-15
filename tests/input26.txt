@@ -1,0 +1,8 @@
+load test3.db
+total records
+departure NJC 05.03.2026
+departure RGK 03.03.2026
+departure TOF 02.03.2026
+departure UCT 01.03.2026
+departure KJA 28.02.2026
+quit

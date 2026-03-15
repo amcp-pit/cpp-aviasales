@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Check requirements
         run: |
-             !(grep -qwRE --include=*.{cc,cpp,h,hpp} '<vector>|<list>|<string>|<algorithm>|<stack>|<queue>|<deque>|<set>|<map>|<bits' ./* ) &&  (echo \"Check - OK\" )  || ( echo \"Forbiden STL containers\" && exit 9 )
+             !(grep -qwRE --include=*.{cc,cpp,h,hpp} '<vector>|<list>|<algorithm>|<stack>|<queue>|<deque>|<set>|<map>|<bits' ./* ) &&  (echo \"Check - OK\" )  || ( echo \"Forbiden STL containers\" && exit 9 )
       - name: Code linting
         uses: amcp-pit/cpp-linter@v1
         with:
@@ -34,7 +34,7 @@ jobs:
         uses: amcp-pit/autograding@v1
       - name: Memory leaks
         run: |
-             valgrind --tool=memcheck --leak-check=full --undef-value-errors=no --error-exitcode=111 ./datetime
+             valgrind --tool=memcheck --leak-check=full --undef-value-errors=no --error-exitcode=111 ./aviasales < tests/input31.txt
       - name: Checkout
         uses: actions/checkout@v4
       - name: CPD

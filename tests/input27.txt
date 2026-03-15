@@ -1,0 +1,9 @@
+load test3.db
+total records
+schedule NJC 05.03.2026
+schedule BAX 04.03.2026
+schedule AYT 03.03.2026
+schedule ATH 02.03.2026
+schedule VGD 01.03.2026
+schedule KGD 28.02.2026
+quit

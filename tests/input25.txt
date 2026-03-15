@@ -1,0 +1,8 @@
+load test3.db
+total records
+arrival ATH 02.03.2026
+arrival PEK 03.03.2026
+arrival SLY 04.03.2026
+arrival VVO 01.03.2026
+arrival GDX 28.02.2026
+quit

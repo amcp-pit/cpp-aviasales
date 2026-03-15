@@ -1,0 +1,6 @@
+load test1.db
+buy SU6026 01.03.2026
+buy DP208 02.03.2026
+buy DP206 28.02.2026
+buy SU6495 28.02.2026
+quit

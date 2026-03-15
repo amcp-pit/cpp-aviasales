@@ -1,0 +1,3 @@
+load test1.db
+schedule SVO 01.03.2026
+quit

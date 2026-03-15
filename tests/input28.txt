@@ -1,0 +1,26 @@
+load test3.db
+total records
+total tickets
+find LED to PEK
+buy S76410 03.03.2026
+find LED to PEK
+find KGD to AER
+buy DP268 28.02.2026
+buy SU1009 28.02.2026
+find KGD to AER
+find IJK to BKK
+buy SU6382 28.02.2026
+buy SU6382 02.03.2026
+buy SU6382 28.02.2026
+buy SU6382 02.03.2026
+buy SU6382 28.02.2026
+buy SU6382 02.03.2026
+find IJK to BKK
+find LED to DWC
+buy SU764 28.02.2026
+find LED to DWC
+find LED to DXB
+buy FZ966 05.03.2026
+find LED to DXB
+save test3.db
+quit

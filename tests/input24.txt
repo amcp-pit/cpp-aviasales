@@ -1,0 +1,7 @@
+load test3.db
+total records
+from LED to JED on 28.02.2026
+find LED to JED
+from AER to SYX on 28.02.2026
+find AER to SYX
+quit

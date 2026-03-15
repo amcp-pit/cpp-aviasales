@@ -1,0 +1,13 @@
+> > SU6127, LED, 07:00, departure
+SU6131, LED, 08:30, departure
+SU6041, LED, 09:30, departure
+SU6213, LED, 10:00, departure
+SU6245, LED, 12:30, departure
+SU6214, LED, 14:00, arrival
+SU6058, LED, 14:30, arrival
+SU6495, LED, 15:30, departure
+SU24, LED, 18:30, departure
+SU6579, LED, 19:00, departure
+SU6496, LED, 19:25, arrival
+SU6699, LED, 21:30, departure
+> 

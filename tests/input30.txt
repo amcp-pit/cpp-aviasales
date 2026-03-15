@@ -1,0 +1,11 @@
+load test3.db
+total records
+total tickets
+clear
+total records
+total tickets
+save test3.db
+load test3.db
+total records
+total tickets
+quit

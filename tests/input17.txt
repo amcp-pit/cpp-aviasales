@@ -1,0 +1,3 @@
+load test1.db
+find VKO to LED
+quit

@@ -1,0 +1,25 @@
+load test1.db
+buy S71011 28.02.2026
+buy S71011 28.02.2026
+buy S71011 28.02.2026
+buy S71011 01.03.2026
+buy S71011 02.03.2026
+buy S71011 03.03.2026
+buy S71015 28.02.2026
+buy S71015 01.03.2026
+buy S71015 02.03.2026
+buy S71015 02.03.2026
+buy S71015 02.03.2026
+buy S71015 03.03.2026
+buy S71015 03.03.2026
+find DME to LED
+total records
+total tickets
+export output19.txt
+clear
+total records
+total tickets
+save test2.db
+load test2.db
+total records
+quit

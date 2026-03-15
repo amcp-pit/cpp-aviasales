@@ -1,14 +1,17 @@
 CC=clang++
-CFLAGS=-pedantic-errors -Wall -Wextra -Werror -gdwarf-4 -std=c++20
+CFLAGS=-c -pedantic-errors -Wall -Wextra -Werror -gdwarf-4 -std=c++20
 LDFLAGS=
-SOURCES=main.cc datetime.cpp
+SOURCES=aviasales.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
-EXECUTABLE=datetime
+EXECUTABLE=aviasales
 
 all: $(SOURCES) $(EXECUTABLE)
 
 $(EXECUTABLE): $(OBJECTS)
-	$(CC) $(SOURCES) $(CFLAGS) $(LDFLAGS) -o $@
+	$(CC) $(LDFLAGS) $(OBJECTS) -o $@
+
+.cpp.o:
+	$(CC) $(CFLAGS) $< -o $@
 
 clean:
 	rm -rf *.o $(EXECUTABLE)

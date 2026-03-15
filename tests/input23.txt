@@ -1,0 +1,4 @@
+load test3.db
+total records
+total tickets
+quit

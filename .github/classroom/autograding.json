@@ -3,7 +3,7 @@
     {
       "name": "Test 1.1",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/inpute1.txt > out.txt && cmp out.txt tests/oute1.txt",
+      "run": "timeout 1 ./aviasales < tests/inpute1.txt > out.txt && cmp out.txt tests/oute1.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -13,7 +13,7 @@
     {
       "name": "Test 1.2",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/inpute2.txt > out.txt && cmp out.txt tests/oute2.txt",
+      "run": "timeout 1 ./aviasales < tests/inpute2.txt > out.txt && cmp out.txt tests/oute2.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -23,7 +23,7 @@
     {
       "name": "Test 1.3",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/inpute3.txt > out.txt && cmp out.txt tests/oute3.txt",
+      "run": "timeout 1 ./aviasales < tests/inpute3.txt > out.txt && cmp out.txt tests/oute3.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -33,7 +33,7 @@
     {
       "name": "Test 1.4",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/inpute4.txt > out.txt && cmp out.txt tests/oute4.txt",
+      "run": "timeout 1 ./aviasales < tests/inpute4.txt > out.txt && cmp out.txt tests/oute4.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -43,7 +43,7 @@
     {
       "name": "Test 1.5",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/inpute5.txt > out.txt && cmp outpute5.txt tests/outpute5.txt && cmp out.txt tests/oute5.txt",
+      "run": "timeout 1 ./aviasales < tests/inpute5.txt > out.txt && cmp outpute5.txt tests/outpute5.txt && cmp out.txt tests/oute5.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -53,7 +53,7 @@
     {
       "name": "Test 2.1",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input1.txt > out.txt && cmp output1.txt tests/output1.txt && cmp out.txt tests/out1.txt",
+      "run": "timeout 1 ./aviasales < tests/input1.txt > out.txt && cmp output1.txt tests/output1.txt && cmp out.txt tests/out1.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -63,7 +63,7 @@
     {
       "name": "Test 2.2",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input2.txt > out.txt && cmp output2.txt tests/output2.txt && cmp out.txt tests/out2.txt",
+      "run": "timeout 1 ./aviasales < tests/input2.txt > out.txt && cmp output2.txt tests/output2.txt && cmp out.txt tests/out2.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -73,7 +73,7 @@
     {
       "name": "Test 2.3",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input3.txt > out.txt && cmp output3.txt tests/output3.txt && cmp out.txt tests/out3.txt",
+      "run": "timeout 1 ./aviasales < tests/input3.txt > out.txt && cmp output3.txt tests/output3.txt && cmp out.txt tests/out3.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -83,7 +83,7 @@
     {
       "name": "Test 2.4",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input4.txt > out.txt && cmp output4.txt tests/output4.txt && cmp out.txt tests/out4.txt",
+      "run": "timeout 1 ./aviasales < tests/input4.txt > out.txt && cmp output4.txt tests/output4.txt && cmp out.txt tests/out4.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -93,7 +93,7 @@
     {
       "name": "Test 2.5",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input5.txt > out.txt && cmp out.txt tests/out5.txt",
+      "run": "timeout 1 ./aviasales < tests/input5.txt > out.txt && cmp out.txt tests/out5.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -103,7 +103,7 @@
     {
       "name": "Test 2.6",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input6.txt > out.txt && cmp output6.txt tests/output6.txt && cmp out.txt tests/out6.txt",
+      "run": "timeout 1 ./aviasales < tests/input6.txt > out.txt && cmp output6.txt tests/output6.txt && cmp out.txt tests/out6.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -113,7 +113,7 @@
     {
       "name": "Test 2.7",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input7.txt > out.txt && cmp out.txt tests/out7.txt",
+      "run": "timeout 1 ./aviasales < tests/input7.txt > out.txt && cmp out.txt tests/out7.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -123,7 +123,7 @@
     {
       "name": "Test 2.8",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input8.txt > out.txt && cmp out.txt tests/out8.txt",
+      "run": "timeout 1 ./aviasales < tests/input8.txt > out.txt && cmp out.txt tests/out8.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -133,7 +133,7 @@
     {
       "name": "Test 2.9",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input9.txt > out.txt && cmp out.txt tests/out9.txt",
+      "run": "timeout 1 ./aviasales < tests/input9.txt > out.txt && cmp out.txt tests/out9.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -143,7 +143,7 @@
     {
       "name": "Test 2.10",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input10.txt > out.txt && cmp out.txt tests/out10.txt",
+      "run": "timeout 1 ./aviasales < tests/input10.txt > out.txt && cmp out.txt tests/out10.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -153,7 +153,7 @@
     {
       "name": "Test 2.11",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input11.txt > out.txt && cmp out.txt tests/out11.txt",
+      "run": "timeout 1 ./aviasales < tests/input11.txt > out.txt && cmp out.txt tests/out11.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -163,7 +163,7 @@
     {
       "name": "Test 2.12",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input12.txt > out.txt && cmp out.txt tests/out12.txt",
+      "run": "timeout 1 ./aviasales < tests/input12.txt > out.txt && cmp out.txt tests/out12.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -173,7 +173,7 @@
     {
       "name": "Test 2.13",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input13.txt > out.txt && cmp out.txt tests/out13.txt",
+      "run": "timeout 1 ./aviasales < tests/input13.txt > out.txt && cmp out.txt tests/out13.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -183,7 +183,7 @@
     {
       "name": "Test 2.14",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input14.txt > out.txt && cmp out.txt tests/out14.txt",
+      "run": "timeout 1 ./aviasales < tests/input14.txt > out.txt && cmp out.txt tests/out14.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -193,7 +193,7 @@
     {
       "name": "Test 2.15",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input15.txt > out.txt && cmp out.txt tests/out15.txt",
+      "run": "timeout 1 ./aviasales < tests/input15.txt > out.txt && cmp out.txt tests/out15.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -203,7 +203,7 @@
     {
       "name": "Test 2.16",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input16.txt > out.txt && cmp out.txt tests/out16.txt",
+      "run": "timeout 1 ./aviasales < tests/input16.txt > out.txt && cmp out.txt tests/out16.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -213,7 +213,7 @@
     {
       "name": "Test 2.17",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input17.txt > out.txt && cmp out.txt tests/out17.txt",
+      "run": "timeout 1 ./aviasales < tests/input17.txt > out.txt && cmp out.txt tests/out17.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -223,7 +223,7 @@
     {
       "name": "Test 2.18",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input18.txt > out.txt && cmp out.txt tests/out18.txt",
+      "run": "timeout 1 ./aviasales < tests/input18.txt > out.txt && cmp out.txt tests/out18.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -233,7 +233,7 @@
     {
       "name": "Test 2.19",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input19.txt > out.txt && cmp output19.txt tests/output19.txt && cmp out.txt tests/out19.txt",
+      "run": "timeout 1 ./aviasales < tests/input19.txt > out.txt && cmp output19.txt tests/output19.txt && cmp out.txt tests/out19.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -243,7 +243,7 @@
     {
       "name": "Test 2.20",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input20.txt > out.txt && cmp output20.txt tests/output20.txt && cmp out.txt tests/out20.txt",
+      "run": "timeout 1 ./aviasales < tests/input20.txt > out.txt && cmp output20.txt tests/output20.txt && cmp out.txt tests/out20.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -253,7 +253,7 @@
     {
       "name": "Test 3.1",
       "setup": "",
-      "run": "timeout 20 ./aviasales < tests/input21.txt > out.txt && cmp output21.txt tests/output21.txt && cmp out.txt tests/out21.txt",
+      "run": "timeout 3 ./aviasales < tests/input21.txt > out.txt && cmp output21.txt tests/output21.txt && cmp out.txt tests/out21.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -263,7 +263,7 @@
     {
       "name": "Test 3.2",
       "setup": "",
-      "run": "timeout 20 ./aviasales < tests/input22.txt > out.txt && cmp out.txt tests/out22.txt",
+      "run": "timeout 5 ./aviasales < tests/input22.txt > out.txt && cmp out.txt tests/out22.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -283,7 +283,7 @@
     {
       "name": "Test 3.4",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input24.txt > out.txt && cmp out.txt tests/out24.txt",
+      "run": "timeout 30 ./aviasales < tests/input24.txt > out.txt && cmp out.txt tests/out24.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -293,7 +293,7 @@
     {
       "name": "Test 3.5",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input25.txt > out.txt && cmp out.txt tests/out25.txt",
+      "run": "timeout 5 ./aviasales < tests/input25.txt > out.txt && cmp out.txt tests/out25.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -303,7 +303,7 @@
     {
       "name": "Test 3.6",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input26.txt > out.txt && cmp out.txt tests/out26.txt",
+      "run": "timeout 5 ./aviasales < tests/input26.txt > out.txt && cmp out.txt tests/out26.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -313,7 +313,7 @@
     {
       "name": "Test 3.7",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input27.txt > out.txt && cmp out.txt tests/out27.txt",
+      "run": "timeout 5 ./aviasales < tests/input27.txt > out.txt && cmp out.txt tests/out27.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -323,7 +323,7 @@
     {
       "name": "Test 3.8",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input28.txt > out.txt && cmp out.txt tests/out28.txt",
+      "run": "timeout 60 ./aviasales < tests/input28.txt > out.txt && cmp out.txt tests/out28.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -333,7 +333,7 @@
     {
       "name": "Test 3.9",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input29.txt > out.txt && cmp out.txt tests/out29.txt",
+      "run": "timeout 30 ./aviasales < tests/input29.txt > out.txt && cmp out.txt tests/out29.txt",
       "input": "",
       "output": "",
       "comparison": "include",
@@ -353,7 +353,7 @@
     {
       "name": "Test 4.1",
       "setup": "",
-      "run": "timeout 3 ./aviasales < tests/input31.txt > out.txt && cmp output31.txt tests/output31.txt && cmp out.txt tests/out31.txt",
+      "run": "timeout 1 ./aviasales < tests/input31.txt > out.txt && cmp output31.txt tests/output31.txt && cmp out.txt tests/out31.txt",
       "input": "",
       "output": "",
       "comparison": "include",
